@@ -9,5 +9,3 @@ engine = create_engine(DATABASE_URL)
 
 # Create a Session class to interact with the database
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-
